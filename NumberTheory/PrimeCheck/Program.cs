@@ -9,12 +9,15 @@
 
 static double? GetInput() => double.Parse(Console.ReadLine());
 
-var n = GetInput();
-
-if (n.HasValue)
+for (int t = int.Parse(Console.ReadLine()); t-- > 0;)
 {
-    Console.ForegroundColor= ConsoleColor.Red;
-    Console.Write($"{n.Value} is");
-    Console.Write(IsPrime(n) ? " Prime" : " Not Prime");
-    Console.ForegroundColor= ConsoleColor.White;
+    var n = GetInput();
+
+    if (n.HasValue)
+    {
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.Write(n.Value + " is ");
+        Console.WriteLine(IsPrime(n) ? "Prime" : "Not Prime");
+        Console.ForegroundColor = ConsoleColor.White;
+    }
 }

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeCheck", "PrimeCheck\PrimeCheck.csproj", "{DA64CF32-3F49-4241-8153-6CDF171C2563}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeCheck", "PrimeCheck\PrimeCheck.csproj", "{DA64CF32-3F49-4241-8153-6CDF171C2563}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SieveOfEratosthenes", "SieveOfEratosthenes\SieveOfEratosthenes.csproj", "{E1BD9235-4048-4330-9B36-5F60322496BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{DA64CF32-3F49-4241-8153-6CDF171C2563}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA64CF32-3F49-4241-8153-6CDF171C2563}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA64CF32-3F49-4241-8153-6CDF171C2563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1BD9235-4048-4330-9B36-5F60322496BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1BD9235-4048-4330-9B36-5F60322496BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1BD9235-4048-4330-9B36-5F60322496BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1BD9235-4048-4330-9B36-5F60322496BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
